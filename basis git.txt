@@ -1,0 +1,193 @@
+Yash Verma@DESKTOP-S5A10NK MINGW64 ~ (main)
+$ pwd
+/c/Users/Yash Verma
+
+Yash Verma@DESKTOP-S5A10NK MINGW64 ~ (main)
+$ ls
+ AppData/                                                                                       OneDrive/
+ Contacts/                                                                                      Pictures/
+ Desktop/                                                                                      'Saved Games'/
+ Documents/                                                                                     Videos/
+ Favorites/                                                                                     ambika
+ NTUSER.DAT                                                                                     ntuser.dat.LOG1
+ NTUSER.DAT{53b39e88-18c4-11ea-a811-000d3aa4692b}.TM.blf                                        ntuser.dat.LOG2
+ NTUSER.DAT{53b39e88-18c4-11ea-a811-000d3aa4692b}.TMContainer00000000000000000001.regtrans-ms   ntuser.ini
+ NTUSER.DAT{53b39e88-18c4-11ea-a811-000d3aa4692b}.TMContainer00000000000000000002.regtrans-ms   txt
+
+Yash Verma@DESKTOP-S5A10NK MINGW64 ~ (main)
+$ mkdir 20may
+
+Yash Verma@DESKTOP-S5A10NK MINGW64 ~ (main)
+$ pwd
+/c/Users/Yash Verma
+
+Yash Verma@DESKTOP-S5A10NK MINGW64 ~ (main)
+$ ls
+ 20may/                                                                                         OneDrive/
+ AppData/                                                                                       Pictures/
+ Contacts/                                                                                     'Saved Games'/
+ Desktop/                                                                                       Videos/
+ Documents/                                                                                     ambika
+ Favorites/                                                                                     ntuser.dat.LOG1
+ NTUSER.DAT                                                                                     ntuser.dat.LOG2
+ NTUSER.DAT{53b39e88-18c4-11ea-a811-000d3aa4692b}.TM.blf                                        ntuser.ini
+ NTUSER.DAT{53b39e88-18c4-11ea-a811-000d3aa4692b}.TMContainer00000000000000000001.regtrans-ms   txt
+ NTUSER.DAT{53b39e88-18c4-11ea-a811-000d3aa4692b}.TMContainer00000000000000000002.regtrans-ms
+
+Yash Verma@DESKTOP-S5A10NK MINGW64 ~ (main)
+$ ls -a
+ ./               Desktop/
+ ../              Documents/
+ .ambik.swp       Favorites/
+ .ambika.swp      NTUSER.DAT
+ .asoni.swp       NTUSER.DAT{53b39e88-18c4-11ea-a811-000d3aa4692b}.TM.blf
+ .bash_history    NTUSER.DAT{53b39e88-18c4-11ea-a811-000d3aa4692b}.TMContainer00000000000000000001.regtrans-ms
+ .datatxt         NTUSER.DAT{53b39e88-18c4-11ea-a811-000d3aa4692b}.TMContainer00000000000000000002.regtrans-ms
+ .git/            OneDrive/
+ .gitconfig       Pictures/
+ .lesshst        'Saved Games'/
+ .regex.txt.swo   Videos/
+ .regex.txt.swp   ambika
+ .vscode/         ntuser.dat.LOG1
+ 20may/           ntuser.dat.LOG2
+ AppData/         ntuser.ini
+ Contacts/        txt
+
+Yash Verma@DESKTOP-S5A10NK MINGW64 ~ (main)
+$ git init
+Reinitialized existing Git repository in C:/Users/Yash Verma/.git/
+
+Yash Verma@DESKTOP-S5A10NK MINGW64 ~ (main)
+$ ls -a
+ ./               Desktop/
+ ../              Documents/
+ .ambik.swp       Favorites/
+ .ambika.swp      NTUSER.DAT
+ .asoni.swp       NTUSER.DAT{53b39e88-18c4-11ea-a811-000d3aa4692b}.TM.blf
+ .bash_history    NTUSER.DAT{53b39e88-18c4-11ea-a811-000d3aa4692b}.TMContainer00000000000000000001.regtrans-ms
+ .datatxt         NTUSER.DAT{53b39e88-18c4-11ea-a811-000d3aa4692b}.TMContainer00000000000000000002.regtrans-ms
+ .git/            OneDrive/
+ .gitconfig       Pictures/
+ .lesshst        'Saved Games'/
+ .regex.txt.swo   Videos/
+ .regex.txt.swp   ambika
+ .vscode/         ntuser.dat.LOG1
+ 20may/           ntuser.dat.LOG2
+ AppData/         ntuser.ini
+ Contacts/        txt
+
+Yash Verma@DESKTOP-S5A10NK MINGW64 ~ (main)
+$ git status
+On branch main
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   README.md
+
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        deleted:    README.md
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        .ambik.swp
+        .ambika.swp
+        .asoni.swp
+        .bash_history
+        .datatxt
+        .gitconfig
+        .lesshst
+        .regex.txt.swo
+        .regex.txt.swp
+        .vscode/
+        AppData/
+        Contacts/
+        Desktop/
+        Documents/
+        Favorites/
+        NTUSER.DAT
+        NTUSER.DAT{53b39e88-18c4-11ea-a811-000d3aa4692b}.TM.blf
+        NTUSER.DAT{53b39e88-18c4-11ea-a811-000d3aa4692b}.TMContainer00000000000000000001.regtrans-ms
+        NTUSER.DAT{53b39e88-18c4-11ea-a811-000d3aa4692b}.TMContainer00000000000000000002.regtrans-ms
+        OneDrive/
+        Pictures/
+        Saved Games/
+        Videos/
+        ambika
+        ntuser.dat.LOG1
+        ntuser.dat.LOG2
+        ntuser.ini
+        txt
+
+
+Yash Verma@DESKTOP-S5A10NK MINGW64 ~ (main)
+$ git add data.txt
+fatal: pathspec 'data.txt' did not match any files
+
+Yash Verma@DESKTOP-S5A10NK MINGW64 ~ (main)
+$ git status
+On branch main
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   README.md
+
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        deleted:    README.md
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        .ambik.swp
+        .ambika.swp
+        .asoni.swp
+        .bash_history
+        .datatxt
+        .gitconfig
+        .lesshst
+        .regex.txt.swo
+        .regex.txt.swp
+        .vscode/
+        AppData/
+        Contacts/
+        Desktop/
+        Documents/
+        Favorites/
+        NTUSER.DAT
+        NTUSER.DAT{53b39e88-18c4-11ea-a811-000d3aa4692b}.TM.blf
+        NTUSER.DAT{53b39e88-18c4-11ea-a811-000d3aa4692b}.TMContainer00000000000000000001.regtrans-ms
+        NTUSER.DAT{53b39e88-18c4-11ea-a811-000d3aa4692b}.TMContainer00000000000000000002.regtrans-ms
+        OneDrive/
+        Pictures/
+        Saved Games/
+        Videos/
+        ambika
+        ntuser.dat.LOG1
+        ntuser.dat.LOG2
+        ntuser.ini
+        txt
+
+
+Yash Verma@DESKTOP-S5A10NK MINGW64 ~ (main)
+$ git config --global user.email "vyash4266@gmail.com"
+
+Yash Verma@DESKTOP-S5A10NK MINGW64 ~ (main)
+$ git config --global user.name "yashverma"
+
+Yash Verma@DESKTOP-S5A10NK MINGW64 ~ (main)
+$ git commit
+hint: Waiting for your editor to close the file...       0 [sig] bash 1638! sigpacket::process: Suppressing signal 18 to win32 process (pid 9736)
+Aborting commit due to empty commit message.
+
+Yash Verma@DESKTOP-S5A10NK MINGW64 ~ (main)
+$ git remote add origin https://github.com/yvABC/basis-git-command.git
+error: remote origin already exists.
+
+Yash Verma@DESKTOP-S5A10NK MINGW64 ~ (main)
+$
